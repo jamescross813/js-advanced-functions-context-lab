@@ -79,9 +79,7 @@ let allWagesFor = function () {
 }
 
 function calculatePayroll(arr){
-    // console.log(arr.map(function(employee){
-    //     return allWagesFor(employee)})
-    
+   
     let employeePay = arr.map((employee) =>
     {return allWagesFor.call(employee)})
    
